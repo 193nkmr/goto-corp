@@ -1,11 +1,13 @@
 import React from "react";
-import { Container } from "@mui/material";
+import { Container, Box, Typography } from "@mui/material";
 
 const Achievements = () => {
     return (
         <>
             <Container>
-                実績一覧
+                <Box sx={{height: 100, width: "auto" }}></Box>
+                <Typography variant="h6">実績</Typography>
+                <Box sx={{height: 20, width: "auto" }}></Box>
             </Container>
         </>
     )

@@ -7,7 +7,7 @@ import { AppBar, Toolbar, Typography, Container, Box, Button } from "@mui/materi
 const Navbar = () => {
     return (
             <nav className="nav">
-                <AppBar position="static">
+                <AppBar position="static" color="secondary">
                     <Container maxWidth="xl">
                         <Toolbar disableGutters>
                         <Typography
