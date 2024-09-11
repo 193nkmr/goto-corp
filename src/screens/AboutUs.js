@@ -48,6 +48,7 @@ const AboutUs = () => {
                         </TableBody>
                     </Table>
                 </TableContainer>
+                <Box sx={{height: 100, width: "auto" }}></Box>
             </Container>
         </>
     )
